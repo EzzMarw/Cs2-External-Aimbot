@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\97059\Desktop\C++ THINGS\PrivateAimbot\Project\Headers\mem.h(209,11): warning C4244: '*=': conversion from 'double' to 'DWORD', possible loss of data
+C:\Users\97059\Desktop\C++ THINGS\PrivateAimbot\Project\Headers\mem.h(252,38): warning C4312: 'type cast': conversion from 'ULONG' to 'DWORD *' of greater size
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\97059\Desktop\C++ THINGS\PrivateAimbot\Project\Headers\mem.h(181): warning C4715: 'IsHandleValid': not all control paths return a value
+  All 511 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PrivateAimbot.vcxproj -> C:\Users\97059\Desktop\C++ THINGS\PrivateAimbot\x64\Release\PrivateAimbot.exe

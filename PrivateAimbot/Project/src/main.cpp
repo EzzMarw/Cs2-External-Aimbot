@@ -45,17 +45,17 @@ int main()
 			if (!listEntry)
 			continue;
 
-			uintptr_t player = rpm<uintptr_t>(listEntry + 0x78 * (i & 0x1FF)); //الاعب رقم 2     
+			uintptr_t player = rpm<uintptr_t>(listEntry + 0x78 * (i & 0x1FF)); 
 
 
 		if (!player)
 		 continue;
 
-			uint32_t playerPawn = rpm<uint32_t>(player + offsets::m_hPlayerPawn);   //اللاعب ال2 زائد البون
+			uint32_t playerPawn = rpm<uint32_t>(player + offsets::m_hPlayerPawn);  
 
 
 
-			uintptr_t listEntry2 = rpm<uintptr_t>(EntityList + 0x8 * ((playerPawn & 0x7FFF) >> 9) + 0x10); //10 SAME THING AS BEFORE LOL (ListEntry)
+			uintptr_t listEntry2 = rpm<uintptr_t>(EntityList + 0x8 * ((playerPawn & 0x7FFF) >> 9) + 0x10); 
 
 
 			uintptr_t pCSPPlayerPawn = rpm<uintptr_t>(listEntry2 + 0x78 * (playerPawn & 0x1FF));
